@@ -24,6 +24,8 @@ OSSのコード・公開API・ドキュメント・設計判断・保守状況�
 oss-observations/
 ├── README.md
 ├── RULES.md
+├── docs/
+│   └── oss_code_reading_guide.md # コードの読み方のガイド
 ├── templates/
 │   ├── project.md             # 対象ごとの案内
 │   ├── observation.md         # 1つの問いの観察記録
@@ -41,6 +43,8 @@ oss-observations/
 ```
 
 ## 観察を始める
+
+コードを読む手順は [コードリーディングガイド](docs/oss_code_reading_guide.md) を参照する。
 
 例えば `golang/go` を対象にする場合、次のように用意する。観察対象のソースコードをクローンする必要はない。
 
