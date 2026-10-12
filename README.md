@@ -41,6 +41,8 @@ oss-observations/
         │   └── YYYYMMDD-topic.md
         ├── reviews/          # レビューを受けたら作る
         │   └── YYYYMMDD-topic.md # 対象の観察メモと同じファイル名
+        ├── discussions/      # 疑問を議論したら作る
+        │   └── YYYYMMDD-<問い番号>-<議論のテーマ>.md
         └── experiments/      # 実験が必要になったら作る
             └── <topic>/
                 ├── README.md
@@ -65,7 +67,7 @@ cp templates/observation.md projects/golang-go/observations/YYYYMMDD-topic.md
 
 観察が終わったら、メモ・対象ごとのREADME・一覧に時間と状態を反映する。次のOSSでは、前の対象と比べられる問いを選ぶ。
 
-観察メモのレビューを受けたら、対象の `reviews/` にメモと同じファイル名で残す。次のOSSでも繰り返しそうな課題は、[自分の課題リスト](docs/weak-points.md)に追加する。レビューはAIや他人の説明なので、メモに書き移す前に自分でコードと照らし合わせる。対応の範囲と時間の扱いは [RULES.md](RULES.md) の「7. レビューへの対応」に従う。
+観察メモのレビューを受けたら、対象の `reviews/` にメモと同じファイル名で残す。次のOSSでも繰り返しそうな課題は、[自分の課題リスト](docs/weak-points.md)に追加する。レビューはAIや他人の説明なので、メモに書き移す前に自分でコードと照らし合わせる。対応の範囲と時間の扱いは [RULES.md](RULES.md) の「7. レビューへの対応」に従う。観察メモの疑問をAIや他人と議論したら、対象の `discussions/` に1つのテーマにつき1ファイルで残す。
 
 ## 記録の考え方
 
