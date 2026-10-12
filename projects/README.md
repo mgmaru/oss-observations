@@ -8,7 +8,7 @@
 
 | OSS | 主な観察範囲 | 初回（分） | 再訪（分） | 状態 | 記録 |
 | --- | --- | --- | --- | --- | --- |
-| tidwall/gjson | 設定値・modifierの流れ、共有状態とAPIの扱い | 0 | 0 | 未着手 | [問いの一覧](tidwall-gjson/README.md) |
+| tidwall/gjson | JSONからの値取得、設定値・modifierの流れ、共有状態とAPIの扱い | 0 | 0 | 未着手 | [問いの一覧](tidwall-gjson/README.md) |
 
 状態は「未着手」「初回観察中」「初回完了」「再訪中」「再訪完了」で記録する。「記録」には対象ごとのREADMEへのリンクを付ける。
 
